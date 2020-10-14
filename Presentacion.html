@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>CDAS</title>
+
+    <Style>
+        body {
+            background-color: #eeeeee;
+
+        }
+
+        #Titulo {
+            font-family: 'Times New Roman', Times, serif;
+            margin-top: 8%;
+        }
+
+        #logo {
+            width: 250px;
+            margin-left: 100px;
+        }
+
+        #logo2 {
+            width: 400px;
+            margin-left: 600px;
+            margin-top: -110px;
+        }
+
+        #trimestres {
+            color: black;
+        }
+
+        #espacios {
+            background-color: #e0e0e0;
+        }
+
+        #espacios:hover {
+            background-color: #f5f5f5;
+        }
+
+        #Int {
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .nombres {
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #Analisis {
+            margin-left: 450px;
+            margin-top: -198px;
+        }
+        #Sena{
+            width: 200px;
+            margin-left: 900px;
+        }
+    </Style>
+
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav class="nav-extended grey lighten-2">
+            <div id="log" class="nav-wrapper">
+                <a href="#" class="brand-logo"> <img id="logo" src="IMG/Logo.png" alt=""></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
+            <div class="nav-content">
+                <ul class="tabs tabs-transparent">
+                    <li id="espacios" class="tab"><a id="trimestres" href="Presentacion.html">Bienvenida</a></li>
+                    <li id="espacios" class="tab"><a id="trimestres" href="Primer Trimestre.html">Primer Trimestre</a></li>
+                    <li id="espacios" class="tab"><a id="trimestres" href="Segundo Trimestre.html">Segundo Trimestre</a></li>
+                    <li id="espacios" class="tab disabled"><a id="trimestres" href="#test3">Tercer Trimestre</a></li>
+                    <li id="espacios" class="tab"><a id="trimestres" href="#test4">Cuarto Trimestre</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">JavaScript</a></li>
+        </ul>
+
+    </div>
+
+    <!---Titulo-->
+    <Div class="container">
+        <div>
+            <h2 id="Titulo" class="left-align"><b>Control De Acceso Seguro</b></h2>
+            <img id="logo2" src="IMG/Logo.png" alt="">
+        </div>
+    </Div>
+
+    <div class="container">
+        <ul>
+            <li id="Int"><b>INTEGRANTES:</b></li>
+            <li class="nombres">Jimmy Steven Carrillo Bernal</li>
+            <li class="nombres">Andres Muñoz Mateus</li>
+            <li class="nombres">Camilo Ordoñez Chaves </li>
+        </ul>
+
+        <ul id="Analisis">
+            <li id="Int"><b>Analisis y desarollo de sistemas de informacion:</b></li>
+            <li class="nombres">Ficha:</li>
+            <li class="nombres">2024344</li>
+
+        </ul>
+    </div>
+    <div>
+        <img id="Sena" src="IMG/sena.png" alt="">
+    </div>
+
+   
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
